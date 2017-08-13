@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ReactJS Basics</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        .middle-loader{
+            position: fixed;
+            top: 40%;
+            left: 45%;
+        }
+        .header{
+            height: 70px;
+            position:fixed;
+            left:0;
+            right:0;
+            background-color: #1C1C2D;
+            display:inline-block;
+            z-index: 1010;
+        }
+        .container{
+            padding-top: 100px;
+            text-align: center;
+        }
+        .header-logo{
+            padding-left:20px;
+            float: left;
+            padding-top: 10px;
+        }
+        .right-header-container{
+            float: right;
+            width: 210px;
+            color: #fff;
+            margin: 20px 50px;
+        }
+        .right-header-left{
+            display: block;
+            float: left;
+            padding: 10px;
+        }
+        .right-header-right{
+            display: block;
+            float: right;
+            padding: 10px;
+        }
+        .row{
+            text-align: left;
+        }
+        .col-xs-4{
+            padding-top: 40px;
+        }
+        .movies-list{
+            -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+            box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+        }
+        .absolute-text{
+            position: absolute;
+            top: 45px;
+            left: 25px;
+            color: #fff;
+            font-size: 11px;
+            z-index: 1000;
+        }
+        .darker{
+            position: absolute;
+            left: 14px;
+            top: 40px;
+            width: 88%;
+            height: 83%;
+            z-index: 1000;
+            background-color: #000000;
+            opacity: 0.5;
+        }
+        .movieNameText{
+            color: #fff;
+            z-index: 1000;
+            position: absolute;
+            bottom: 0px;
+            left: 25px;
+            width: 250px;
+        }
+        .movieNameLanguage{
+            color: #fff;
+            z-index: 1000;
+            position: absolute;
+            bottom: 20px;
+            left: 25px;
+        }
+        .row-header{
+            display: table;
+            width: 100%;
+            table-layout: fixed; 
+            border-spacing: 10px;
+        }
+        .column-header{
+            display: table-cell;
+        }
+        .input_search{
+            color: black;
+            border: 1px solid #fdfdfd;
+            padding: 5px;
+            width: 240px;
+        }
+        .absolute-star{
+            position: absolute;
+            top: 45px;
+            color: #fff;
+            font-size: 15px;
+            z-index: 1000;
+            right: 40px;
+        }
+        .absolute-heart{
+            position: absolute;
+            top: 45px;
+            color: #fff;
+            font-size: 15px;
+            z-index: 1000;
+            right: 100px;
+            right: 123px;
+        }
+        .absolute-comment{
+            position: absolute;
+            top: 41px;
+            color: #fff;
+            font-size: 20px;
+            z-index: 1000;
+            right: 100px;
+        }
+    </style>
+</head>
+<body>
+<div id="app"></div>
+<script src="/app/bundle.js"></script>
+</body>
+</html>

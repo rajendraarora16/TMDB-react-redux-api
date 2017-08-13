@@ -1,0 +1,36 @@
+{
+  "name": "reactjs-basics",
+  "version": "1.0.0",
+  "description": "Some basic ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback",
+    "build:prod": "webpack -p && cp src/index.html dist/index.html"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "Maximilian Schwarzmueller",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-promise-middleware": "^4.0.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "laravel-mix": "^1.2.0",
+    "postcss-loader": "^2.0.6",
+    "style-loader": "^0.18.2",
+    "vue-loader": "^13.0.1",
+    "webpack": "^3.2.0"
+  }
+}
